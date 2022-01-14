@@ -1,3 +1,4 @@
+/* --header-- */
 .header{
     display: flex;
     justify-content: space-evenly;
@@ -11,8 +12,9 @@
 }
 .nav{
     margin-top: 20px;
-   
+/* --header-end--    */
 }
+/* --menu-- */
 .menu{
     display: flex;
     margin-top: 40px;
@@ -42,6 +44,14 @@ h1{
     border: none;
     border-radius: 20px;
 }
+.button:hover{
+    transform: scale(1.10);
+}
+.button{
+    transition: transform 2s;
+    /* --menu end-- */
+}
+/* --first contener-- */
 .website{
    display: flex;
    justify-content:space-evenly;
@@ -49,7 +59,9 @@ h1{
    border-bottom: 1px solid lightgray;
    padding: 20px;
    margin-top: 90px;
+   /* --last contener-- */
 }
+/* --first aside-- */
 .aside{
     margin-top: 100px;
 }
@@ -63,6 +75,12 @@ h1{
     padding: 0 150px;
     grid-gap: 40px;
    
+}
+.fa-star.filled{
+    color: #E07C24;
+}
+.fa-star-half.filled{
+    color:#E07C24 ;
 }
 .flextripod{
     box-sizing: border-box;
@@ -154,6 +172,7 @@ h1{
 }
 .actioncamera{
     transition: transform 3s;
+
 }
 .seemore{
     display: flex;
@@ -162,7 +181,50 @@ h1{
     margin-right: 110px;
     font-size: 20px;
     color: #FF6666;
+    /* --last aside-- */
 }
 #aro{
     margin-left: 10px;
+}
+/* --first aside-- */
+.future-product{
+    display: flex;
+}
+.gear{
+    width: 75%;
+    margin-left: 100px;
+    
+}
+.gear img{
+    border-radius: 20px;
+}
+.features{
+    width: 100%;
+    margin-right: 100px;
+    margin-left: 50px;
+}
+.product-place{
+    
+    font-family: 'Poppins', sans-serif;
+}
+.future-product{
+    margin-top: 100px;
+    /* --last aside-- */
+}
+/* --footer-- */
+.footer{
+    border: 3px solid ;
+    height: 200px;
+    background-color: #120E43;
+    color: white;
+ text-align: center;
+}
+.footer1{
+    margin-top: 100px;
+}
+.logo{
+ display:flex;
+  grid-gap: 25px;
+  justify-content: center;
+  /* --footer-end-- */
 }
