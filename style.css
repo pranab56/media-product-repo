@@ -48,6 +48,121 @@ h1{
    border-top: 1px solid lightgray;
    border-bottom: 1px solid lightgray;
    padding: 20px;
- 
- 
+   margin-top: 90px;
+}
+.aside{
+    margin-top: 100px;
+}
+#popular{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.collection{
+    display: grid;
+    grid-template-columns:300px 300px 300px ;
+    padding: 0 150px;
+    grid-gap: 40px;
+   
+}
+.flextripod{
+    box-sizing: border-box;
+    box-shadow:20px 10px 20px lightgray; 
+}
+.flextripod:hover{
+    transform: scale(1.1);
+}
+.flextripod{
+    transition: transform 3s;
+}
+.drone{
+    box-sizing: border-box;
+    box-shadow:20px 10px 20px lightgray;
+}
+.drone:hover{
+    transform: scale(1.1);
+}
+.drone{
+    transition: transform 3s;
+}
+.bloggingcamera{
+    box-sizing: border-box;
+    box-shadow:20px 10px 20px lightgray;
+}
+.bloggingcamera:hover{
+    transform: scale(1.1);
+}
+.bloggingcamera{
+    transition: transform 3s;
+}
+.microphone{
+    box-sizing: border-box;
+    box-shadow:20px 10px 20px lightgray;
+}
+.microphone:hover{
+    transform: scale(1.1);
+}
+.microphone{
+    transition: transform 3s;
+}
+
+.lightsetup{
+    box-sizing: border-box;
+    box-shadow:20px 10px 20px lightgray;
+}
+.lightsetup:hover{
+    transform: scale(1.1);
+}
+.lightsetup{
+    transition: transform 3s;
+}
+.greenscreen{
+    box-sizing: border-box;
+    box-shadow:20px 10px 20px lightgray;
+}
+.greenscreen:hover{
+    transform: scale(1.1);
+}
+.greenscreen{
+    transition: transform 3s;
+}
+.airbuds{
+    box-sizing: border-box;
+    box-shadow:20px 10px 20px lightgray;
+}
+.airbuds:hover{
+    transform: scale(1.1);
+}
+.airbuds{
+    transition: transform 3s;
+}
+.photoshootset{
+    box-sizing: border-box;
+    box-shadow:20px 10px 20px lightgray;
+}
+.photoshootset:hover{
+    transform: scale(1.1);
+}
+.photoshootset{
+    transition: transform 3s;
+}
+.actioncamera{
+    box-sizing: border-box;
+    box-shadow:20px 10px 20px lightgray;
+}
+.actioncamera:hover{
+    transform: scale(1.1);
+}
+.actioncamera{
+    transition: transform 3s;
+}
+.seemore{
+    display: flex;
+    justify-content: end;
+    margin-top: 60px;
+    margin-right: 110px;
+    font-size: 20px;
+    color: #FF6666;
+}
+#aro{
+    margin-left: 10px;
 }
