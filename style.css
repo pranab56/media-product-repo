@@ -42,3 +42,12 @@ h1{
     border: none;
     border-radius: 20px;
 }
+.website{
+   display: flex;
+   justify-content:space-evenly;
+   border-top: 1px solid lightgray;
+   border-bottom: 1px solid lightgray;
+   padding: 20px;
+ 
+ 
+}
