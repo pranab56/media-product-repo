@@ -1,8 +1,12 @@
-/* --header-- */
+
+ /* --header--  */
 .header{
     display: flex;
     justify-content: space-evenly;
+  
 }
+
+
 .nav a{
     text-decoration: none;
     font-size: 20px;
@@ -10,6 +14,85 @@
     color: black;
     
 }
+@media only screen and (max-width:800px) {
+    body{
+        background-color: white;
+        margin: 0;
+        padding: 0;
+        grid-gap: 0;
+    }
+    .header{
+        display: block;
+        text-align: center;
+    }
+    .camera img{
+        width: 400px;
+    }
+    .menu{
+        display: flex;
+        flex-direction:column-reverse;
+    }
+    .media-title{
+       display: block;
+        text-overflow: ellipsis;
+        text-align: justify;
+        position: relative;
+        flex-wrap: nowrap;
+        
+       
+    }
+    h1{
+       
+     display: inline;
+      
+     
+        
+    }
+    .website ,img{
+        display: flex;
+  flex-direction: column;
+   
+    }
+    .website{
+        width: 30%;
+        grid-gap: 10px;
+       margin-left: 100px;
+       
+    }
+    #popular{
+     margin-right: 170px;
+        
+        
+    }
+    .aside > .collection{
+   display: grid;
+   grid-template-columns: repeat(1,1fr);
+
+   
+    align-content:flex-start;
+    justify-content: right;
+    }
+    .future-product{
+        display: flex;
+flex-direction: column;
+    align-content:flex-start;
+    justify-content: right;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    text-align:left;
+    }
+  .gear img{
+      align-content: flex-start;
+      text-align: left;
+      justify-content: left;
+      width: 350px;
+  }
+    
+  
+}
+
 .nav{
     margin-top: 20px;
 /* --header-end--    */
@@ -24,10 +107,7 @@
     margin-top: 60px;
     margin-right: 150px;
     margin-left: 100px;
-    font-family: 'Poppins', sans-serif;
-   
-   
-    
+    font-family: 'Poppins', sans-serif;  
 }
 h1{
     font-size: 40px;
